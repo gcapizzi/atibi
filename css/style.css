@@ -1,0 +1,174 @@
+@import url(pt-sans/stylesheet.css);
+
+body {
+    background-color: #F0F0F0;
+    font-family: 'PTSansNarrowRegular', sans-serif;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.lowercase { text-transform: lowercase; }
+
+#container {
+    background-color: #FFF;
+    margin: 20px auto;
+    width: 950px;
+}
+
+#trasporto {
+    background: url(../img/picture.jpg) bottom center no-repeat;
+    height: 320px;
+    margin-top: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 950px;
+}
+
+#slogan {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    left: 35px;
+    position: absolute;
+    top: 60px;
+    width: 300px;
+}
+
+#slogan .big {
+    display: block;
+    font-size: 72px;
+    letter-spacing: -2px;
+    margin-bottom: -5px;
+}
+
+#slogan .small {
+    display: block;
+    float: left;
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+#slogan .big_line {
+    display: block;
+}
+
+#slogan .line {
+    line-height: 25px;
+    margin-left: 80px;
+}
+
+#trasporto_nav {
+    position: absolute;
+    left: 25px;
+    overflow: hidden;
+    top: 200px;
+    width: 900px;
+}
+
+#trasporto_nav li {
+    float: left;
+    height: 100px;
+    overflow: hidden;
+    margin-right: -25px;
+    position: relative;
+    width: 200px;
+}
+
+#trasporto_nav a {
+    display: block;
+    height: 50px;
+    padding: 25px 35px;
+    position: relative;
+    width: 130px;
+    z-index: 3;
+}
+
+#trasporto_nav a:link,
+#trasporto_nav a:visited {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.no-js #trasporto_nav a:link,
+.no-js #trasporto_nav a:visited {
+    background: url(../img/button_nohole.png) top left no-repeat;
+}
+
+.no-js #trasporto_nav a:hover,
+.no-js #trasporto_nav a:active {
+    background: url(../img/button_glow_nohole.png) top left no-repeat;
+}
+
+#trasporto_nav .big { font-size: 30px; }
+#trasporto_nav .small { font-size: 15px; margin-top: -5px; line-height: 18px; }
+
+#trasporto_nav .button {
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    z-index: 2;
+}
+
+#trasporto_nav .button.shadow {
+    background: url(../img/button.png) top left no-repeat;
+}
+
+#trasporto_nav .button.glow {
+    background: url(../img/button_glow.png) top left no-repeat;
+    display: none;
+}
+
+#trasporto_nav .icon {
+    height: 30px;
+    left: 35px;
+    position: absolute;
+    top: 25px;
+    width: 30px;
+    z-index: 1;
+}
+
+#trasporto_nav .label {
+    display: block;
+    left: 70px;
+    position: absolute;
+    width: 95px;
+}
+
+#trasporto_nav .linee .icon {
+    background: url('../img/icons/linee.png') repeat 0 -30px;
+}
+
+#trasporto_nav .biglietti .icon {
+    background: url('../img/icons/biglietti.png') repeat 0 -30px;
+}
+
+#trasporto_nav .airport .icon {
+    background: url('../img/icons/airport.png') repeat 0 -30px;
+}
+
+#trasporto_nav .dillo .icon {
+    background: url('../img/icons/dillo.png') repeat 0 -30px;
+}
+
+#trasporto_nav .tutti .icon {
+    display: none;
+}
+
+#trasporto_nav .tutti .label {
+    left: 35px;
+    top: 20px;
+    width: 130px;
+}
+
+#trasporto_nav .tutti .button.shadow {
+    background: url(../img/button_nohole.png) top left no-repeat;
+}
+
+#trasporto_nav .tutti .button.glow {
+    background: url(../img/button_glow_nohole.png) top left no-repeat;
+    display: none;
+}
+
